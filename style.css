@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #000;
+  color: #e0e0e0;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 60px 24px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #C0C0C0;
+  letter-spacing: 4px;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.tagline {
+  text-align: center;
+  color: #888;
+  font-size: 0.95rem;
+  margin-bottom: 48px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.links a {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  text-align: center;
+  padding: 16px 24px;
+  border: 1px solid #333;
+  border-radius: 12px;
+  color: #C0C0C0;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.links a:hover {
+  background-color: #111;
+  border-color: #C0C0C0;
+}
+
+.contact {
+  text-align: center;
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.contact a {
+  color: #C0C0C0;
+  text-decoration: none;
+}
+
+/* Legal page styles */
+.legal {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+.legal .back {
+  display: inline-block;
+  color: #C0C0C0;
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-bottom: 32px;
+}
+
+.legal .back:hover {
+  text-decoration: underline;
+}
+
+.legal h1 {
+  text-align: left;
+  font-size: 1.75rem;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+}
+
+.legal .effective {
+  color: #666;
+  font-size: 0.85rem;
+  margin-bottom: 40px;
+}
+
+.legal h2 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #C0C0C0;
+  margin-top: 36px;
+  margin-bottom: 12px;
+}
+
+.legal p, .legal li {
+  color: #bbb;
+  font-size: 0.95rem;
+  margin-bottom: 12px;
+}
+
+.legal ul {
+  padding-left: 20px;
+  margin-bottom: 12px;
+}
+
+.legal li {
+  margin-bottom: 6px;
+}
+
+.legal a {
+  color: #C0C0C0;
+}
